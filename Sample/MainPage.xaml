@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="Sample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Sample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:fi="using:FixedPivot"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <fi:FixedPivot HeaderHeight="68">
+            <fi:FixedPivotItem HeaderText="dsad" Badge="3" HeaderIcon="Home">
+                <TextBlock>1</TextBlock>
+            </fi:FixedPivotItem>
+            <fi:FixedPivotItem HeaderText="dsad" Badge="2" HeaderIcon="Home">
+                <TextBlock>2</TextBlock>
+            </fi:FixedPivotItem>
+            <fi:FixedPivotItem HeaderText="dsad" HeaderIcon="Home">
+                <TextBlock>3</TextBlock>
+            </fi:FixedPivotItem>
+        </fi:FixedPivot>
+    </Grid>
+</Page>
